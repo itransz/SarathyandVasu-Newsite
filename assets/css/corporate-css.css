@@ -1,0 +1,90 @@
+.colors-choice h4{
+  color:darkblue;
+}
+.container-font{
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.container-color strong{
+color: sandybrown
+}
+
+
+.hr-container{
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+.hr-1 h3{
+  color:violet;
+}
+
+.sav strong{
+  color: darkblue;
+}
+
+.investment-1 strong{
+  color:orange
+}
+ .investment-1 h3{
+  color:darkolivegreen;
+ }
+
+.fixed{
+  font-family: sans-serif;
+  text-align: justify;
+}
+.fixed h2{
+  color: darkblue;
+}
+.fixed-1 h4{
+ color:red;
+}
+
+.ngo{
+  font-family: sans-serif;
+text-align: justify;
+}
+.ngo strong{
+  color: sandybrown;
+}
+.ngo-1 h3{
+color: red;
+}
+.ngo-1 {
+  text-align: justify;
+  font-family: sans-serif;
+}
+
+.stock{
+  text-align: justify;
+  font-family: sans-serif;
+}
+.stock h3{
+  color: darkblue;
+}
+.stock i{
+  color: darkblue;
+}
+
+.stock-1 strong{
+  color: sandybrown;
+}
+
+.business{
+  text-align: justify;
+}
+
+.business h2, h3{
+  color:burlywood;
+}
+.business-1{
+  text-align: justify;
+}
+.business i{
+  color: sandybrown;
+}
+.business-1 i{
+  color: sandybrown;
+}
