@@ -9,6 +9,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -161,7 +162,7 @@ h6 {
   background: rgba(25, 25, 25, 0.95);
   transition: all 0.5s;
   z-index: 997;
-  height: 70px;
+  height: 100px;
 }
 
 #header.fixed-top {
@@ -183,7 +184,8 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height:100px;
+  max-width: 940px;
 }
 
 .scrolled-offset {
@@ -421,7 +423,7 @@ h6 {
 #hero {
   width: 100%;
   height: calc(100vh - 110px);
-  background: url("../img/accountant.jpg") top center;
+  background: url("../img/Screenshot\ from\ 2024-03-09\ 14-54-54.png") top center;
   background-size: cover;
   position: relative;
 }
@@ -578,6 +580,7 @@ section {
   margin-bottom: 0;
 }
 
+
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
@@ -709,8 +712,9 @@ section {
 
 .services .icon-box p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 17px;
   margin-bottom: 0;
+  text-align: justify;
 }
 
 .services .icon-box:hover {
@@ -1097,7 +1101,7 @@ section {
 
 .team .member p {
   padding-top: 10px;
-  font-size: 14px;
+  font-size: 18px;
   font-style: italic;
   color: #aaaaaa;
 }
@@ -1428,8 +1432,65 @@ section {
   color: #e82d2d;
 }
 
+
+.moving-text {
+  display: inline-block;
+  animation: moveText 2s linear infinite alternate, changeColor 4s linear infinite alternate;
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes changeColor {
+  0% {
+    color: blue;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: green;
+  }
+}
+
+
 @media (max-width: 575px) {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
   }
+}
+
+.know-more-button {
+  background-color:sandybrown;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.know-more-button::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #aaaaaa;
+  transition: left 0.3s ease;
+}
+
+.know-more-button:hover::before {
+  left: 100%;
 }
