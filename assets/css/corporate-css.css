@@ -61,7 +61,25 @@ color: red;
   margin: 0 auto;
   padding: 20px;
 }
+.colors-choice{
+  text-align: justify;
+  font-family: sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  
+}
 
+.business-1{
+  text-align: justify;
+  font-family: sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  
+}
 .stock{
   text-align: justify;
   font-family: sans-serif;
