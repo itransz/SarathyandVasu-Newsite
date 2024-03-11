@@ -56,10 +56,20 @@ color: red;
   text-align: justify;
   font-family: sans-serif;
 }
+.summary {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
 .stock{
   text-align: justify;
   font-family: sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  
 }
 .stock h3{
   color: darkblue;
@@ -68,6 +78,12 @@ color: red;
   color: darkblue;
 }
 
+.stock-1{
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
 .stock-1 strong{
   color: sandybrown;
 }
@@ -87,4 +103,76 @@ color: red;
 }
 .business-1 i{
   color: sandybrown;
+}
+
+/*media query for social audit*/
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+  .container {
+      padding: 0 15px;
+  }
+
+  h3 {
+      font-size: 22px;
+  }
+
+  .summary, .usp,
+  .stock {
+      padding: 15px;
+  }
+  .usp h3 {
+    font-size: 20px;
+}
+
+.usp li::before {
+    font-size: 12px;
+}
+
+  .stock img {
+      width: 100%;
+      border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+  h3 {
+      font-size: 18px;
+  }
+
+  p {
+      font-size: 14px;
+  }
+  .container {
+    padding: 0 5px;
+}
+  .summary, .usp,
+  .stock {
+      padding: 10px;
+  }
+  .usp h3 {
+    font-size: 18px;
+}
+
+.usp li::before {
+    font-size: 10px;
+}
+
+  .stock img {
+      border-radius: 0;
+  }
 }
