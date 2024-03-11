@@ -8,7 +8,6 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            background-color: #f5f5f5;
             margin: 0;
             padding: 0;
             color: #333;
@@ -17,26 +16,25 @@
         .container {
             max-width: 960px;
             margin: 0 auto;
-            padding: 0 15px;
-        }
-
-        h1, h2, h3, h4, h5, h6 {
-            margin-top: 0;
+            padding: 20px;
         }
 
         h1 {
             font-size: 36px;
             text-align: center;
             margin-bottom: 20px;
+            color: #0070c0;
         }
 
         h2 {
             font-size: 28px;
             margin-bottom: 20px;
+            color: #0070c0;
         }
 
         p {
             margin-bottom: 20px;
+            text-align: justify;
         }
 
         ul {
@@ -48,16 +46,17 @@
         }
 
         .usp {
-            background-color: #333;
-            color: #fff;
+            background-color: #f9f9f9;
             padding: 20px;
             margin-bottom: 20px;
+            border-radius: 10px;
         }
 
         .usp h3 {
             font-size: 24px;
             margin-top: 0;
             margin-bottom: 10px;
+            color: #0070c0;
         }
 
         .usp ul {
@@ -75,24 +74,68 @@
             content: '\2022';
             position: absolute;
             left: 0;
-            color: #fff;
+            color: #0070c0;
         }
 
         .summary {
-            background-color: #333;
-            color: #fff;
+            background-color: #f9f9f9;
             padding: 20px;
             margin-bottom: 20px;
+            border-radius: 10px;
         }
 
-        .summary p {
-            margin-bottom: 10px;
+        /* Media Queries */
+        @media only screen and (max-width: 768px) {
+            h1 {
+                font-size: 30px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+
+            .container {
+                padding: 0 10px;
+            }
+
+            .usp,
+            .summary {
+                padding: 15px;
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            .container {
+                padding: 0 5px;
+            }
+
+            .usp,
+            .summary {
+                padding: 10px;
+            }
+
+            .usp h3 {
+                font-size: 20px;
+            }
+
+            .usp li::before {
+                font-size: 12px;
+            }
         }
     </style>
 </head>
 <body>
 <div class="container">
-    <h1>SARATHY & VASU LLP Chartered Accountants</h1>
+        <h1>Welcome to SARATHY & VASU LLP Chartered Accountants</h1>
+        <img src="assets/img/Screenshot from 2024-03-09 14-54-54.png" alt="Office Building" style="display:block; margin: 0 auto; border-radius: 10px;">
     <div class="summary">
         <h2>BIG FIRM Functionality; small FIRM Personality</h2>
         <p>Navigating Financial Excellence Since 1986</p>
@@ -118,11 +161,21 @@
             <li>Client-Centric Approach: We firmly believe that every client is unique, with distinct financial goals and challenges. Our client-centric approach involves personalized consultations and tailor-made strategies that align with our clients' objectives, ensuring a roadmap to success that's built around their aspirations.</li>
             <li>Innovation and Adaptability: The financial world is dynamic, marked by constant regulatory changes and technological advancements. Our firm stays at the forefront of these shifts, integrating the latest tools and strategies to optimize financial operations and create sustainable growth opportunities for our clients.</li>
             <li>Ethical Integrity: Trust is the foundation of our client relationships. SARATHY & VASU LLP prides itself on upholding the highest standards of ethical integrity and transparency. Our clients rely on us for unbiased insights and accurate reporting, giving them the peace of mind they deserve.</li>
-            <li>Holistic Solutions: We offer a comprehensive suite of financial services that cater to various domains such as auditing, taxation, accounting, business advisory, and more. This holistic approach ensures that our clients can access all the services they need under one roof, streamlining their financial management processes.</li>
+            <li>Holistic Solutions: We offer a comprehensive
+
+ suite of financial services that cater to various domains such as auditing, taxation, accounting, business advisory, and more. This holistic approach ensures that our clients can access all the services they need under one roof, streamlining their financial management processes.</li>
             <li>Longstanding Relationships: Our firm's legacy is built on nurturing enduring relationships with clients. Many of our clients have been with us for years, a testament to our consistent delivery of value and unwavering support in their financial journeys.</li>
         </ul>
         <p>In summary, SARATHY & VASU LLP Chartered Accountants, established in 1986, stands as a pillar of financial expertise and reliability. With a commitment to excellence, personalized service, and innovative strategies, we are your partners in achieving financial success. Join us in navigating the seas of finance with confidence, guided by experience and expertise that spans decades.</p>
     </div>
 </div>
+<footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        <strong><span>© 2024 Sarathy and Vasu LLP</span></strong>
+      </div>
+      
+    </div>
+  </footer><!-- End Footer -->  
 </body>
 </html>
