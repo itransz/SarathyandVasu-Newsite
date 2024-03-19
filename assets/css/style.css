@@ -183,6 +183,12 @@ h6 {
   color: #fff;
 }
 
+#header .logo-02 img{
+  max-width: 300px;
+  max-height: 90px;
+  float: left;
+  margin-right: 320px;
+}
 #header .logo img {
   max-height:100px;
   max-width: 940px;
@@ -448,6 +454,21 @@ h6 {
   color: #fff;
 }
 
+  @media screen and (max-width: 768px) {
+    #hero {
+      height: calc(100vh + 50px);
+      background-size: contain; 
+      background-repeat: no-repeat;
+      background-position: top ; 
+      padding-top: 30px;
+    }
+  
+    #hero:before {
+      height: calc(100vh + 50px); 
+    }
+  }
+
+
 #hero h2 {
   color: #eee;
   margin-bottom: 50px;
@@ -472,32 +493,8 @@ h6 {
   border-color: #cc1616;
 }
 
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
 
-@media (max-width: 768px) {
-  #hero {
-    text-align: center;
-  }
 
-  #hero .container {
-    padding-top: 40px;
-  }
-
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Sections General
@@ -605,16 +602,12 @@ section {
 .why-us .box h4 {
   font-size: 24px;
   font-weight: 600;
-  padding: 0;
-  margin: 20px 0;
   color: #191919;
 }
 
 .why-us .box p {
   color: #aaaaaa;
-  font-size: 16px;
-  margin: 0;
-  padding: 0;
+  font-size: 14px;
 }
 
 .why-us .box:hover {
@@ -1102,7 +1095,7 @@ section {
 
 .team .member p {
   padding-top: 10px;
-  font-size: 16px;
+  font-size: 14px;
   font-style: italic;
   color: #aaaaaa;
 }
@@ -1436,8 +1429,50 @@ section {
 
 .moving-text {
   display: inline-block;
+  font-size: 30px;
+  padding-top: 90px;
   animation: moveText 2s linear infinite alternate, changeColor 4s linear infinite alternate;
 }
+.moving-text-2 {
+  display: inline-block;
+  font-size: 30px;
+  animation: moveText 2s linear infinite alternate, changeColor 4s linear infinite alternate;
+}
+.moving-text-03 {
+  display: inline-block;
+  font-size: 30px;
+  animation: moveText-03 2s linear infinite alternate, changeColor 4s linear infinite alternate;
+}
+.moving-text-04{
+  font-family:sans-serif; 
+  color:#0070c0;
+  padding-top: 60px;
+  animation: moveText 2s linear infinite alternate, changeColor 4s linear infinite alternate;
+}
+@keyframes moveText-03 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes changeColor {
+  0% {
+    color: blue;
+  }
+  50% {
+    color:#18d26e;
+  }
+  100% {
+    color:indigo;
+  }
+}
+
 
 @keyframes moveText {
   0% {
@@ -1494,4 +1529,16 @@ section {
 
 .know-more-button:hover::before {
   left: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  #about .col-lg-6 {
+    width: 100%; 
+    order: 2; 
+  }
+
+  #about .content {
+    text-align: center;
+    margin-top: 20px; 
+  }
 }

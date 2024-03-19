@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="assets/css/style.css"/>
     <link rel="stylesheet" href="assets/css/corporate-css.css"/>
 
-    <link href="assets/img/sandv-logo.png" rel="icon">
-  <link href="assets/img/sandv-logo.png" rel="apple-touch-icon">
+    <link href="assets/img/sarathyandvasu-logo.png" rel="icon">
+  <link href="assets/img/sarathyandvasu-logo.png" rel="apple-touch-icon">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
@@ -19,26 +19,15 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <title>Sarathy &amp; Vasu LLP Chartered Accountant</title>
     <style>
+      
         body {
             font-family: sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            color: #333;
         }
 
         .container {
             max-width: 960px;
             margin: 0 auto;
             padding: 20px;
-        }
-
-        h1 {
-            font-size: 36px;
-            text-align: center;
-            margin-bottom: 20px;
-            color: #0070c0;
-            font-family: sans-serif;
         }
 
         h2 {
@@ -104,20 +93,20 @@
             margin-bottom: 20px;
             border-radius: 10px;
         }
-        /*logo design */
-
-
-
+        
 #header .logo-1 a {
   color: #fff;
 }
 .container img {
-    padding-top: 110px;
+    padding-top: 10px;
 }
-#header .logo-1 img {
+#header .logo img {
   max-height:100px;
   max-width: 940px;
   padding-left: 400px;
+}
+#header .logo-02 img {
+  padding-left: 50px;
 }
 
 @media screen and (max-width: 768px) {
@@ -131,7 +120,7 @@
 
   h1 {
     font-size: 28px; 
-    margin-bottom: 10px; 
+   
   }
 
   h2 {
@@ -161,14 +150,25 @@
     margin-bottom: 10px; 
   }
 
-
   #header .container-1 {
     padding: 10px; 
   }
 
-  #header .logo-1 img {
-    max-height: 80px; 
+  #header .logo-2 img {
+    max-height: 30px; 
     padding-left: 20px; 
+  }
+  #header .logo img,
+  #header .logo-02 img {
+    max-height: 70px;
+    padding:0px;
+  }
+
+  .mobile-nav-toggle {
+    display: block; 
+    color: #fff; 
+    font-size: 24px; 
+    cursor: pointer; 
   }
 }
     </style>
@@ -176,17 +176,32 @@
 <body>
     <header id="header" class="d-flex align-items-center">
         <div class="container-1 d-flex align-items-center justify-content-between">
-            <a href="index.html" class="logo-1"><img src="assets/img/sandv-logo.png" alt="" class="img-fluid"></a>
+          <a href="index.html" class="logo"><img src="assets/img/ca-logo.png" alt="" class="img-fluid"></a>
+          <a href="index.html" class="logo-02"><img src="assets/img/logo1.jpg" alt="" class="img-fluid"></a>
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link scrollto active" href="index.html#hero">Home</a></li>
+              <li><a class="nav-link scrollto" href="index.html#about">Our Firm</a></li>
+          <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
+              <li><a class="nav-link scrollto" href="index.html#services">Services Array</a></li>
+            <!---  <li><a class="nav-link scrollto " href="#portfolio">Knowledge Stream</a></li>-->
+          <!--<li><a class="nav-link scrollto" href="#career">Careers</a></li>-->
+              <li><a class="nav-link scrollto" href="index.html#contact">Connect</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
         </div>
         
     </header>
 <div class="container">
-        <img src="assets/img/accounts.png" alt="Office Building" style="display:block; margin: 0 auto; border-radius: 10px;"><br>
-        <center>    <h1>Welcome to SARATHY & VASU LLP Chartered Accountants</h1>
-        </center><br>
+  <center>
+    <p class="moving-text">Welcome to SARATHY & VASU LLP</p><br>
+    <p class="moving-text-2">Chartered Accountants</p>
+  </center>
+        <img src="assets/img/accounts.png" alt="Office Building" style="display:block; margin: 0 auto; border-radius: 10px;">
     <div class="summary">
-        <h2>BIG FIRM Functionality; small FIRM Personality</h2>
-        <p>Navigating Financial Excellence Since 1986</p>
+        <h2><i style="color:red">BIG</i> FIRM Functionality; <i style="color:red">small</i> FIRM Personality</h2>
+        <i style="color:darkblue">Navigating Financial Excellence Since 1986</i><br><br>
         <p>Established in the year 1986, SARATHY & VASU LLP Chartered Accountants has been a steadfast partner in financial success for individuals, NPO and businesses alike. With decades of experience in providing top-notch CA services, the firm has garnered a reputation for its unwavering commitment to excellence and a comprehensive suite of financial solutions.</p>
         <p>In pursuit of growth, throughout this 37 years firm has never been complacent to sit idle on its past success and kept on adding one service after another in its kit of services, with the goal of offering a bucket of complete services under one roof. Evolved with time by constantly pushing its boundary of services and achievements.</p>
         <p>With continuous effort presently Sarathy & Vasu LLP is one of the top CA firms headquartered in Chennai with 3 no’s of office across the country imparting full range of CA services to its Client.</p>
@@ -194,27 +209,28 @@
     <div class="summary">
         <h2>TRIPLE CORE VALUES OF THE FIRM</h2>
         <ul>
-            <li>Redefine Technology: Focus to stay abreast of changing technologies for improved results.</li>
-            <li>Quality Service: Established an ecosystem of Knowledge and Technology to assist our clients with accurate advice to propel their business to stay ahead of the curve.</li>
-            <li>Quest for Knowledge: We keep ourselves always updated with various laws and provisions for effective and seamless Statutory compliance.</li>
+            <li style="color:sienna">Redefine Technology:  <i style="color:darkblue"> Focus to stay abreast of changing technologies for improved results.</i></li>
+            <li style="color:sienna">Quality Service:      <i style="color:darkblue"> Established an ecosystem of Knowledge and Technology to assist our clients with accurate advice to propel their business to stay ahead of the curve.</i></li>
+            <li style="color:sienna">Quest for Knowledge:   <i style="color:darkblue"> We keep ourselves always updated with various laws and provisions for effective and seamless Statutory compliance.</i></li>
         </ul>
-        <p>TRIPLE core values of the firm act as driving forces that motivate its professionals to go the extra mile for customer satisfaction, throughout this long, enriching, and fulfilling professional journey.</p>
+        <strong style="color:sienna">TRIPLE core values of the firm </strong><i>acts as driving forces that motivate its professionals to go the extra mile for customer satisfaction, throughout this long, enriching, and fulfilling professional journey.</i>
     </div>
     <div class="usp">
         <h3>Unique Selling Proposition (USP) of SARATHY & VASU LLP</h3>
-        <p>Navigating Your Financial Voyage</p>
+        <p><i style="color:red">Navigating Your Financial Voyage</i></p>
         <p>At SARATHY & VASU LLP, our Unique Selling Proposition (USP) lies in our dedication to navigating our clients' financial voyages with precision, insight, and innovation. Here's what sets us apart:</p>
         <ul>
-            <li>Seasoned Expertise: With over three and a half decades of service, our firm boasts a team of Chartered Accountants who possess a deep understanding of the intricate financial landscape. Our expertise spans across auditing, taxation, advisory, accounting, compliance, Payroll, Fixed Assets management, CSR, Social Audit services enabling us to cater to a diverse clientele.</li>
-            <li>Client-Centric Approach: We firmly believe that every client is unique, with distinct financial goals and challenges. Our client-centric approach involves personalized consultations and tailor-made strategies that align with our clients' objectives, ensuring a roadmap to success that's built around their aspirations.</li>
-            <li>Innovation and Adaptability: The financial world is dynamic, marked by constant regulatory changes and technological advancements. Our firm stays at the forefront of these shifts, integrating the latest tools and strategies to optimize financial operations and create sustainable growth opportunities for our clients.</li>
-            <li>Ethical Integrity: Trust is the foundation of our client relationships. SARATHY & VASU LLP prides itself on upholding the highest standards of ethical integrity and transparency. Our clients rely on us for unbiased insights and accurate reporting, giving them the peace of mind they deserve.</li>
-            <li>Holistic Solutions: We offer a comprehensive
+            <li><i style="color: sienna;">Seasoned Expertise:</i> With over three and a half decades of service, our firm boasts a team of Chartered Accountants who possess a deep understanding of the intricate financial landscape. Our expertise spans across auditing, taxation, advisory, accounting, compliance, Payroll, Fixed Assets management, CSR, Social Audit services enabling us to cater to a diverse clientele.</li>
+            <li><i style="color:sienna">Client-Centric Approach:</i> We firmly believe that every client is unique, with distinct financial goals and challenges. Our client-centric approach involves personalized consultations and tailor-made strategies that align with our clients' objectives, ensuring a roadmap to success that's built around their aspirations.</li>
+            <li><i style="color:sienna">Innovation and Adaptability:</i> The financial world is dynamic, marked by constant regulatory changes and technological advancements. Our firm stays at the forefront of these shifts, integrating the latest tools and strategies to optimize financial operations and create sustainable growth opportunities for our clients.</li>
+            <li><i style="color:sienna">Ethical Integrity: </i>Trust is the foundation of our client relationships. SARATHY & VASU LLP prides itself on upholding the highest standards of ethical integrity and transparency. Our clients rely on us for unbiased insights and accurate reporting, giving them the peace of mind they deserve.</li>
+            <li><i style="color:sienna">Holistic Solutions:</i> We offer a comprehensive
 
  suite of financial services that cater to various domains such as auditing, taxation, accounting, business advisory, and more. This holistic approach ensures that our clients can access all the services they need under one roof, streamlining their financial management processes.</li>
-            <li>Longstanding Relationships: Our firm's legacy is built on nurturing enduring relationships with clients. Many of our clients have been with us for years, a testament to our consistent delivery of value and unwavering support in their financial journeys.</li>
+            <li><i style="color:sienna">Longstanding Relationships:</i> Our firm's legacy is built on nurturing enduring relationships with clients. Many of our clients have been with us for years, a testament to our consistent delivery of value and unwavering support in their financial journeys.</li>
         </ul>
-        <p>In summary, SARATHY & VASU LLP Chartered Accountants, established in 1986, stands as a pillar of financial expertise and reliability. With a commitment to excellence, personalized service, and innovative strategies, we are your partners in achieving financial success. Join us in navigating the seas of finance with confidence, guided by experience and expertise that spans decades.</p>
+        <h2 style="color: darkblue;">In summary</h2> <br>
+        <p style="color:darkblue"><i>SARATHY & VASU LLP Chartered Accountants, established in 1986, stands as a pillar of financial expertise and reliability. With a commitment to excellence, personalized service, and innovative strategies, we are your partners in achieving financial success. Join us in navigating the seas of finance with confidence, guided by experience and expertise that spans decades.</i></p>
     </div>
 </div>
 <footer id="footer">
