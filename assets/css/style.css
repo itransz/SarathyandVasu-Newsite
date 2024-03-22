@@ -166,7 +166,8 @@ h6 {
 }
 
 #header.fixed-top {
-  background: #191919;
+ /* background: #191919;*/
+  background: white;
 }
 
 #header .logo {
@@ -180,7 +181,8 @@ h6 {
 }
 
 #header .logo a {
-  color: #fff;
+ color: #fff;
+ /* color: black;*/
 }
 
 #header .logo-02 img{
@@ -231,7 +233,8 @@ h6 {
   justify-content: space-between;
   padding: 25px 15px 24px 15px;
   font-size: 14px;
-  color: #fff;
+  /*color: #fff;*/
+  color:black;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -271,7 +274,8 @@ h6 {
 
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  color: #191919;
+  /*color: #191919;*/
+  color: white;
 }
 
 .navbar .dropdown ul a i {
@@ -429,7 +433,7 @@ h6 {
 #hero {
   width: 100%;
   height: calc(100vh - 110px);
-  background: url("../img/team/banner.gif") top center;
+  background: url("../img/team/Sarathy\ &\ Vasu\ LLP\ CHARTERED\ ACCOUNTANTS.gif") top center;
   background-size: cover;
   position: relative;
 }
