@@ -66,7 +66,7 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">Our Firm</a></li>
-		  <li><a class="nav-link scrollto" href="#team">Team</a></li>
+		      <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li><a class="nav-link scrollto" href="#services">Services Array</a></li>
         <!---  <li><a class="nav-link scrollto " href="#portfolio">Knowledge Stream</a></li>-->
 		  <!--<li><a class="nav-link scrollto" href="#career">Careers</a></li>-->
@@ -79,16 +79,33 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
-      <!--<h1>Welcome To</h1><br>
-      <h1><span class="moving-text">SARATHY & VASU LLP</span></h1><br>
-      <h4 style="color:white; padding-left: 300px;">Chartered Accountants</h4>-->
+  <section id="hero">
+<div class="w3-content w3-section" style="max-width:900px">
+  <img class="mySlides" src="/assets/img/team/Sarathy & Vasu LLP CHARTERED ACCOUNTANTS.gif" style="width: 1920px; height:700px;">
+  <img class="mySlides" src="/assets/img/accountant.jpg" style="width: 1920px; height:700px;">
+  <img class="mySlides" src="/assets/img/accounts.png"style="width: 1920px; height:700px;">
+  <img class="mySlides" src="/assets/img/auditing.png"style="width: 1920px; height:700px;">
+</div>
 
-      <!--<h2>We are team of talented designers making websites with Bootstrap</h2>-->
-    </div>
-  </section><!-- End Hero -->
+<script>
+var myIndex = 0;
+carousel();
 
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+
+</div>
+</section>
   <main id="main">
 
     <!-- ======= About Section ======= -->
