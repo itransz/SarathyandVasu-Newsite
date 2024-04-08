@@ -100,6 +100,75 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); 
+}
+</script>
+
+</div>
+</section>
+<style>
+  .mySlides {
+    display: none;
+    width: 100%;
+    height: auto;
+  }
+
+  /* Media query for screens smaller than 900px */
+  @media only screen and (max-width: 900px) {
+    .mySlides {
+      width: 100%; 
+      height: auto; 
+    }
+  }
+</style>
+<section id="hero">
+<div class="w3-content w3-section" style="max-width:900px">
+  <img class="mySlides" src="/assets/img/team/Sarathy & Vasu LLP CHARTERED ACCOUNTANTS.gif" style="width: 1990px; height:700px;">
+  <img class="mySlides" src="/assets/img/accountant.jpg" style="width: 1990px; height:700px;">
+  <img class="mySlides" src="/assets/img/accounts.png"style="width: 1990px; height:700px;">
+  <img class="mySlides" src="/assets/img/auditing.png"style="width: 1990px; height:700px;">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+
+</div>
+</section>
+  <section id="hero">
+<div class="w3-content w3-section" style="max-width:900px">
+  <img class="mySlides" src="/assets/img/team/Sarathy & Vasu LLP CHARTERED ACCOUNTANTS.gif" style="width: 1920px; height:700px;">
+  <img class="mySlides" src="/assets/img/accountant.jpg" style="width: 1920px; height:700px;">
+  <img class="mySlides" src="/assets/img/accounts.png"style="width: 1920px; height:700px;">
+  <img class="mySlides" src="/assets/img/auditing.png"style="width: 1920px; height:700px;">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
   setTimeout(carousel, 3000); // Change image every 2 seconds
 }
 </script>
@@ -1075,3 +1144,5 @@ Conducted comprehensive audits of healthcare institutions financial records, ope
 </body>
 
 </html>
+
+
