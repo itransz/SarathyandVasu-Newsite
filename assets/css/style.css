@@ -1567,3 +1567,32 @@ section {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+/* Default styles */
+.w3-content {
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+}
+
+/* Set the width and height of images */
+.w3-content img {
+  width: 100%; /* Make images fill their container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Media query for screens smaller than 900px */
+@media screen and (max-width: 900px) {
+  .w3-content img {
+    width: 100%; /* Make images fill their container */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* Media query for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+  .w3-content img {
+    width: 100%; /* Make images fill their container */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
