@@ -41,6 +41,7 @@
             margin-bottom: 20px;
             text-align: justify;
             font-family: sans-serif;
+            
         }
 
         ul {
@@ -66,6 +67,8 @@
             margin-bottom: 10px;
             color: #0070c0;
             font-family: sans-serif;
+            text-align: justify;
+
         }
 
         .usp ul {
@@ -78,6 +81,8 @@
             padding-left: 20px;
             position: relative;
             font-family: sans-serif;
+            text-align: justify;
+
         }
 
         .usp li::before {
@@ -99,14 +104,6 @@
 }
 .container img {
     padding-top: 10px;
-}
-#header .logo img {
-  max-height:100px;
-  max-width: 940px;
-  padding-left: 400px;
-}
-#header .logo-02 img {
-  padding-left: 50px;
 }
 
 @media screen and (max-width: 768px) {
@@ -131,16 +128,21 @@
   p {
     font-size: 16px;
     margin-bottom: 10px; 
+    text-align: justify;
+
   }
 
   ul {
     font-size: 16px; 
     margin-bottom: 10px; 
+    text-align: justify;
   }
 
   .usp h3 {
     font-size: 20px; 
     margin-bottom: 10px; 
+    text-align: justify;
+
   }
 
   .usp p,
@@ -148,51 +150,91 @@
   .usp li {
     font-size: 16px; 
     margin-bottom: 10px; 
+    text-align: justify;
   }
 
   #header .container-1 {
     padding: 10px; 
   }
+}
+.mobile-nav-toggle {
+  color:#0070c0;
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  line-height: 0;
+  transition: 0.5s;
+}
+.mobile-nav-toggle.bi-x {
+  color: #cc1616;
+}
 
-  #header .logo-2 img {
-    max-height: 30px; 
-    padding-left: 20px; 
-  }
-  #header .logo img,
-  #header .logo-02 img {
-    max-height: 70px;
-    padding:0px;
-  }
-
+@media (max-width: 991px) {
   .mobile-nav-toggle {
-    display: block; 
-    color: #fff; 
-    font-size: 24px; 
-    cursor: pointer; 
+    display: block;
   }
 }
+@media screen and (max-width: 768px) {
+  .moving-text {
+      font-size: 20px;
+  }
+
+  .moving-text-2 {
+      font-size: 16px;
+  }
+}
+#header .logo, .logo-02 {
+  display: inline-block;
+  width: auto; /* Adjust width as needed */
+}
+
+#header .logo img, .logo-02 img {
+  max-height: 80px;
+  vertical-align: middle; /* Align image vertically */
+}
+
+#header .logo-02 {
+  margin-right:30px; /* Adjust margin as needed */
+}
+
+
+/* Media Query for Logo */
+@media (max-width: 768px) {
+  .logo , .logo-02 {
+      max-height: 400px; /* Adjust max height for smaller screens */
+  }
+  .logo-02 {
+      margin-left: 5px; /* Adjust margin for smaller screens */
+  }
+}
+
+
     </style>
 </head>
 <body>
-    <header id="header" class="d-flex align-items-center">
-        <div class="container-1 d-flex align-items-center justify-content-between">
-          <a href="index.html" class="logo"><img src="assets/img/ca-logo.png" alt="" class="img-fluid"></a>
-          <a href="index.html" class="logo-02"><img src="assets/img/logo1.jpg" alt="" class="img-fluid"></a>
-          <nav id="navbar" class="navbar">
-            <ul>
-              <li><a class="nav-link scrollto active" href="index.html#hero">Home</a></li>
-              <li><a class="nav-link scrollto" href="index.html#about">Our Firm</a></li>
-          <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
-              <li><a class="nav-link scrollto" href="index.html#services">Services Array</a></li>
-            <!---  <li><a class="nav-link scrollto " href="#portfolio">Knowledge Stream</a></li>-->
-          <!--<li><a class="nav-link scrollto" href="#career">Careers</a></li>-->
-              <li><a class="nav-link scrollto" href="index.html#contact">Connect</a></li>
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-          </nav><!-- .navbar -->
-        </div>
-        
-    </header>
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <!--<h1 class="logo"><a href="index.html">Day</a></h1> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo"><img src="assets/img/ca-logo.png" alt="" class="img-fluid"></a>
+      <a href="index.html" class="logo-02"><img src="assets/img/logo1.jpg" alt="" class="img-fluid"></a>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Our Firm</a></li>
+		      <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services Array</a></li>
+        <!---  <li><a class="nav-link scrollto " href="#portfolio">Knowledge Stream</a></li>-->
+		  <!--<li><a class="nav-link scrollto" href="#career">Careers</a></li>-->
+          <li><a class="nav-link scrollto" href="#contact">Connect</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header>
+  
 <div class="container">
   <center>
     <p class="moving-text">Welcome to SARATHY & VASU LLP</p><br>

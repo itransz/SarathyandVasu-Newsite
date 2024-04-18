@@ -170,31 +170,40 @@ h6 {
   background: white;
 }
 
-#header .logo {
-  font-size: 30px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 1100;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
+
 
 #header .logo a {
  color: #fff;
  /* color: black;*/
 }
+/* Logo Styles */
+#header .logo, .logo-02 {
+  display: inline-block;
+  width: auto; /* Adjust width as needed */
+}
 
-#header .logo-02 img{
-  max-width: 300px;
-  max-height: 90px;
-  float: left;
-  margin-right: 320px;
+#header .logo img, .logo-02 img {
+  max-height: 80px;
+  vertical-align: middle; /* Align image vertically */
 }
-#header .logo img {
-  max-height:100px;
-  max-width: 940px;
+
+#header .logo-02 {
+  margin-right:30px; /* Adjust margin as needed */
 }
+
+
+/* Media Query for Logo */
+@media (max-width: 768px) {
+  .logo , .logo-02 {
+      max-height: 400px; /* Adjust max height for smaller screens */
+  }
+  .logo-02 {
+      margin-left: 5px; /* Adjust margin for smaller screens */
+  }
+}
+
+
+
 
 .scrolled-offset {
   margin-top: 70px;
@@ -321,7 +330,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color:#0070c0;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -353,6 +362,7 @@ h6 {
   background: rgba(0, 0, 0, 0.9);
   transition: 0.3s;
   z-index: 999;
+  display: block;
 }
 
 .navbar-mobile .mobile-nav-toggle {
@@ -1383,7 +1393,7 @@ section {
 .moving-text-04{
   font-family:sans-serif; 
   color:#0070c0;
-  padding-top: 60px;
+  padding-top: 120px;
   animation: moveText 2s linear infinite alternate, changeColor 4s linear infinite alternate;
 }
 @keyframes moveText-03 {
@@ -1653,26 +1663,22 @@ section {
   to {opacity: 1}
 }
 
-/* styles.css */
+.image-container-09 img {
+  max-width: 100%;
+  height: auto;
+}
 
-.image-container {
+
+.image-container-09 {
   margin-top: 20px;
   text-align: center;
 }
 
-.image-container img {
-  max-width: 100%; 
-  height: auto; 
-}
 
+@media (max-width: 768px) {
+  .image-container-09 img {
+    max-width:100%; /* Set the maximum width to 100% to ensure it fits within its container */
+    height: auto; /* Maintain the aspect ratio */
 
-@media screen and (max-width: 768px) {
-  .image-container {
-      margin-top: 10px; 
-  }
-
-  .image-container img {
-      max-width: auto;
-      height: auto;
   }
 }
