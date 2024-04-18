@@ -28,54 +28,62 @@
   <style>
     body{
       font-family: sans-serif;
+      text-align: justify;
+      background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;  
+  font-style: italic;  
+}
+    strong{
+    color:darkblue;
+  }
+    h2{
+      color: sandybrown;
+      font-family: sans-serif;
     }
-    .colors-choice, .container-color {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 40px;
-    border-radius: 5px;
-  }
-  .summary, .colors-choice img{
-    padding-top: 47px;
-  }
-  @media screen and (max-width: 768px) {
-  .summary {
-    padding: 20px;
-    font-size: 12px;
-  }
-  .colors-choice img {
-    width: 100%; 
-    height: auto; 
-    padding-top: 0px; 
-    padding-right: 100px;
-    border-radius: 0;
-  }
-
-  .summary h3 {
-    font-family: sans-serif;
-    color: #0070c0;
-    text-align: center;
-    font-size: 12px;
-  }
-  .stock p {
-    font-size: 12px;
-    margin: 10px 0;
+  .main{
     text-align: justify;
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
   }
-  .stock ul {
-    margin-left: 20px;
-    padding-left: 20px;
-    font-size: 12px;
+  .big-container{
+  font-family: sans-serif;
   }
-  .footer {
-    position: static;
-    text-align: center;
-    padding: 20px;
-  }
-  .moving-text-4 {
-      font-size: 16px;
+ul {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.container {
+  text-align: center;
+}
+
+.main,
+.Accounts {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.main img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .main,
+  .Accounts {
+    max-width: 90%;
   }
 }
+
   </style>
 </head>
 <body>
@@ -99,114 +107,96 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-
         </div>
       </header>
-<div class="summary">
-  <div class="colors-choice">
-    <center><h3 class="moving-text-04">Accounts, Audit &amp; Assurance</h3></center>
+    <div class="big-container">
+      <div class="main">
+        <img src="assets/img/accounting-image.jpg" alt="Office Building"><br>
+        <center><h2>Accounts, Audit & Assurance</h2></center>
+        <p>Accounts, Audit & Assurance are critical components of financial management and reporting for a business enterprise.</p>
+        <p>Here's a brief overview of the use of these services for a business enterprise:</p>
+    </div>
+
+    <div class="Accounts">
+      <h2>Accounts</h2>
+      <ul>
+        <li><strong>Financial Recording:</strong> Accounts involve the systematic recording and organization of financial transactions, including income, expenses, assets, and liabilities. This process is essential for maintaining accurate financial records.</li>
+        <li><strong>Financial Reporting:</strong>Businesses use accounts to prepare financial statements such as the income statement, balance sheet, and cash flow statement. These statements provide stakeholders, including investors, creditors, and management, with a snapshot of the company's financial health and performance.</li>
+        <li><strong>Decision-Making:</strong>Accurate and up-to-date accounts help management make informed decisions about budgeting, resource allocation, and strategic planning. It provides insights into areas that may require attention or improvement.</li>
+        <li><strong>Tax Compliance:</strong>Maintaining proper accounts is crucial for calculating and reporting taxes accurately. It ensures that the company complies with tax laws and regulations.</li>
+      </ul>
+    </div>
+    <div class="Accounts">
+      <h2>Audit:</h2>
+      <ul>
+        <li><strong>Independent Examination:</strong>Audit services involve an independent examination of a company's financial statements, accounts, and internal controls by a qualified external auditor. The primary purpose is to provide an objective assessment of the accuracy and fairness of financial reporting.</li>
+        <li><strong>Assurance:</strong>Audits provide assurance to stakeholders that the company's financial statements are reliable and free from material misstatements or fraud. This assurance enhances trust and confidence in the company's financial information.</li>
+        <li><strong>Compliance:</strong> Auditors also assess the company's compliance with accounting standards, legal requirements, and internal policies. They identify areas of non-compliance and recommend corrective actions.</strong></li>
+        <li><strong>Risk Mitigation:</strong>Audits help identify and mitigate financial risks, both internal and external, by assessing the effectiveness of internal controls and risk management practices.</li>
+      </ul>
+    </div>
+    <div class="Accounts">
+      <h2>Assurance</h2>
+      <ul>
+       <li><strong>Beyond Financial Statements:</strong>Assurance services go beyond financial statements and can cover a wide range of non-financial areas, such as cybersecurity, sustainability reporting, and compliance with industry-specific standards.</li> 
+       <li><strong>Customized Assessments:</strong>Businesses may engage assurance providers to assess specific processes, systems, or risks. These assessments can provide valuable insights and recommendations for improvement.</li>
+       <li><strong>Stakeholder Confidence:</strong>Assurance services can boost stakeholder confidence by demonstrating that the company is committed to transparency, accountability, and meeting its obligations.</li>
+       <li><strong>Regulatory Compliance:</strong>Assurance services can assist businesses in complying with regulatory requirements related to financial reporting or non-financial disclosures, depending on the scope of the engagement.</li>
+      </ul>
+     <p><i>In summary, accounts, audit, and assurance services play pivotal roles in a business enterprise.</p>
+        <ul>
+          <li>Accounts ensure accurate financial recording and reporting, </li>
+        <li>Audits provide independent verification of financial statements, </li>
+       <li> Assurance services extend to various aspects of operations, enhancing transparency and trust among stakeholders while helping the business manage risks and meet its compliance obligations</li>
+      </ul></i>
+    </div>
     
-  <img src="assets/img/auditing.png" alt="Office Building" style="display:block; margin: 10 auto; padding-left: 100px; border-radius: 10px;"><br>
-<div class="stock">
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify; line-height:110%; font-size:14pt;"><strong><span style="font-family:sans-serif;"><i>Here&apos;s a brief overview of the use of these services for a business enterprise:</i></span></strong></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-bottom:0pt; text-align:justify; line-height:normal; font-size:40pt;"><span style="letter-spacing:-0.35pt; color:#9d3511;">Accounts:</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify; line-height:110%; font-size:14pt;"><strong><span style="font-family:sans-serif;"><i style="color:sienna">Financial Recording:</i></span></strong><span style="line-height:110%; font-size:10.5pt;">&nbsp;</span><span style="font-family: sans-serif;"><i style="color:darkblue">Accounts involve the systematic recording and organization of financial transactions, including income, expenses, assets, and liabilities. This process is essential for maintaining accurate financial records.</i></span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify; line-height:110%; font-size:14pt;"><strong><span style="font-family:sans-serif;"><i style="color:sienna">Financial Reporting:</i></span></strong><span style="line-height:110%; font-size:10.5pt;">&nbsp;</span><span style="font-family: sans-serif;"><i style="color:darkblue">Businesses use accounts to prepare financial statements such as the income statement, balance sheet, and cash flow statement. These statements provide stakeholders, including investors, creditors, and management, with a snapshot of the company&apos;s financial health and performance.</i></span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify; line-height:110%; font-size:14pt;"><strong><span style="font-family:sans-serif;"><i style="color:sienna">Decision-Making:</i></span></strong><span style="line-height:110%; font-size:10.5pt;">&nbsp;</span><span style="font-family: sans-serif;"><i style="color:darkblue"></i>Accurate and up-to-date accounts help management make informed decisions about budgeting, resource allocation, and strategic planning. It provides insights into areas that may require attention or improvement.</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify; line-height:110%; font-size:14pt;"><strong><span style="font-family:sans-serif;"><i style="color:sienna">Tax Compliance:</i></span></strong><span style="line-height:110%; font-size:10.5pt;">&nbsp;</span><span style="font-family: sans-serif;"><i style="color:darkblue">Maintaining proper accounts is crucial for calculating and reporting taxes accurately. It ensures that the company complies with tax laws and regulations.</i></span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-</div>
-</div>
-<div class="stock">
-<p style="margin-top:0pt; margin-bottom:0pt; text-align:justify; line-height:normal; font-size:40pt;"><span style="letter-spacing:-0.35pt; color:#9d3511;">Audit:</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify; line-height:110%; font-size:14pt;"><strong><span style="font-family:sans-serif;">Independent Examination:</span></strong><span style="line-height:110%; font-size:10.5pt;">&nbsp;</span><span style="font-family: sans-serif;">Audit services involve an independent examination of a company&apos;s financial statements, accounts, and internal controls by a qualified external auditor. The primary purpose is to provide an objective assessment of the accuracy and fairness of financial reporting.</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify; line-height:110%; font-size:14pt;"><strong><span style="font-family:sans-serif;">Assurance:</span></strong><span style="line-height:110%; font-size:10.5pt;">&nbsp;</span><span style="font-family: sans-serif;">Audits provide assurance to stakeholders that the company&apos;s financial statements are reliable and free from material misstatements or fraud. This assurance enhances trust and confidence in the company&apos;s financial information.</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify; line-height:110%; font-size:14pt;"><strong><span style="font-family:sans-serif;">Compliance:</span></strong><span style="line-height:110%; font-size:10.5pt;">&nbsp;</span><span style="font-family: sans-serif;">Auditors also assess the company&apos;s compliance with accounting standards, legal requirements, and internal policies. They identify areas of non-compliance and recommend corrective actions.</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify; line-height:110%; font-size:14pt;"><strong><span style="font-family:sans-serif;">Risk Mitigation:</span></strong><span style="line-height:110%; font-size:10.5pt;">&nbsp;</span><span style="font-family: sans-serif;">Audits help identify and mitigate financial risks, both internal and external, by assessing the effectiveness of internal controls and risk management practices.</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
+<div class="Accounts">
+  <h3><i>Your Money is hard-earned, <strong>Count</strong> on us to count it.</i></h3>
+  <h3><i>Your Trusted Partner in Accounts, Audit & Assurance.</i></h3>
 </div>
 
-<div class="stock">
-<p style="margin-top:0pt; margin-bottom:0pt; text-align:justify; line-height:normal; font-size:40pt;"><span style="letter-spacing:-0.35pt; color:#9d3511;">Assurance:</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify; line-height:110%; font-size:14pt;"><strong><span style="font-family:sans-serif;">Beyond Financial Statements:</span></strong><span style="line-height:110%; font-size:10.5pt;">&nbsp;</span><span style="font-family: sans-serif;">Assurance services go beyond financial statements and can cover a wide range of non-financial areas, such as cybersecurity, sustainability reporting, and compliance with industry-specific standards.</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify; line-height:110%; font-size:14pt;"><strong><span style="font-family:sans-serif;">Customized Assessments:</span></strong><span style="line-height:110%; font-size:10.5pt;">&nbsp;</span><span style="font-family: sans-serif;">Businesses may engage assurance providers to assess specific processes, systems, or risks. These assessments can provide valuable insights and recommendations for improvement.</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify; line-height:110%; font-size:14pt;"><strong><span style="font-family:sans-serif;">Stakeholder Confidence:&nbsp;</span></strong><span style="font-family: sans-serif;">Assurance services can boost stakeholder confidence by demonstrating that the company is committed to transparency, accountability, and meeting its obligations.</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify; line-height:110%; font-size:14pt;"><strong><span style="font-family:sans-serif;">Regulatory Compliance:</span></strong><span style="line-height:110%; font-size:10.5pt;">&nbsp;</span><span style="font-family: sans-serif;">Assurance services can assist businesses in complying with regulatory requirements related to financial reporting or non-financial disclosures, depending on the scope of the engagement.</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify; line-height:110%; font: size 14pt;"><i><span style="font-family:sans-serif;">In summary, accounts, audit, and assurance services play pivotal roles in a business enterprise.&nbsp;</span></i></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify; line-height:110%; font-size:14pt;"><i><span style="font-family:sans-serif;">Accounts ensure accurate financial recording and reporting,&nbsp;</span></i></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify; line-height:110%; font-size:14pt;"><i><span style="font-family:sans-serif;">Audits provide independent verification of financial statements,&nbsp;</span></i></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify; line-height:110%; font-size:14pt;"><i><span style="font-family:sans-serif;">Assurance services extend to various aspects of operations, enhancing transparency and trust among stakeholders while helping the business manage risks and meet its compliance obligations.</span></i></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-                </path>
-            </path>
-        </g>&nbsp;</svg><span style="line-height:110%; font-size:14pt; color:#ff0000;">Your Money is hard-earned, Count on us to</span><span style="color:#ff0000;">&nbsp;count&nbsp;</span><span style="line-height:110%; font-size:15pt; color:#ff0000;">it.</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify; line-height:110%; font-size:14pt; color:#ff0000" >Your Trusted Partner in Accounts, Audit &amp; Assurance.</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify; line-height:110%; font-size:14pt;"><span style="font-family:sans-serif;">At Sarathy &amp; Vasu LLP, we understand the critical role that Accounts, Audit &amp; Assurance play in the success and sustainability of your business. With our unwavering commitment to excellence and a team of seasoned professionals, we offer a comprehensive range of CA services tailored to meet your specific needs. Here&apos;s why you should choose us as your trusted partner:</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
+<div class="Accounts">
+  <p><i>At Sarathy & Vasu LLP, we understand the critical role that Accounts, Audit & Assurance play in the success and sustainability of your business. With our unwavering commitment to excellence and a team of seasoned professionals, we offer a comprehensive range of CA services tailored to meet your specific needs. <i>Here's why you should choose us as your trusted partner:</i></p>
+  <ul>
+    <li><strong>Expertise & Experience:</strong> With decades of collective experience, our team of Chartered Accountants possesses in-depth knowledge of accounting principles, auditing standards, and regulatory requirements. We bring this expertise to every engagement, ensuring meticulous attention to detail and compliance.
+    </li>
+    <li><strong>Customized Solutions:</strong>We recognize that no two businesses are alike. Our approach is tailored to your unique circumstances, industry-specific challenges, and growth objectives. We craft customized solutions that align with your strategic goals.</li>
+    <li><strong>Audit & Assurance Services:</strong>Our core competence lies in providing comprehensive Audit & Assurance services, including financial statement audits, internal audits, and compliance reviews. We meticulously examine your financial data to provide you with the assurance you need to make informed decisions.</li>
+    <li><strong>Risk Mitigation:</strong>We help identify and mitigate financial risks, ensuring that your business operates with maximum stability. Our risk assessment and management strategies empower you to navigate uncertain economic landscapes confidently.</li>
+    <li><strong>Regulatory Compliance:</strong>Staying compliant with ever-evolving regulations is a constant challenge. Our team stays abreast of changes and ensures that your financial processes and reporting meet all legal requirements, minimizing the risk of penalties and legal issues.</strong></li>
+    <li><strong>Financial Advisory:</strong>Beyond traditional accounting and audit services, we offer valuable financial advisory services. Our insights and recommendations help you optimize your financial strategies, cut costs, and maximize profits.</li>
+    <li><strong>Technology Integration:</strong>We embrace cutting-edge accounting technology to streamline processes, enhance accuracy, and deliver real-time financial data. This enables you to make swift, data-driven decisions.</li>
+    <li><strong>Timely Reporting:</strong>We understand the importance of timely financial reporting. Our commitment to deadlines ensures that you have access to critical financial information when you need it most.</li>
+    <li><strong>Client-Centric Approach:</strong>Your satisfaction is our top priority. We foster long-term partnerships by maintaining open lines of communication, listening to your concerns, and delivering results that exceed your expectations.</li>
+    <li><strong>Ethical & Transparent Practices:</strong> Our firm upholds the highest ethical standards and transparency in all our dealings. You can trust us with your financial matters, knowing that integrity is at the core of everything we do.</li>
+  </ul>
+</div>
+<div class="Accounts">
+  <h2>Accounts (Outsourcing)</h2>
+  <p>We undertake Completely Outsourcing of Accounts service For MSMEs and Other small Businesses.</p><br>
+  <p><i>The complete range of Accounting Services for Small and Medium Level Enterprises includes.</i></p>
+  <ul>
+    <li>Bookkeeping Services</li>
+    <li>Preparation of Budget, Analysis & Reporting</li>
+    <li>Year-End Accounting Processes</li>
+    <li>Ind AS & IFRS Advisory Services</li>
+    <li>Annual Preparation of Accounts and Taxes</li>
+    <li>Audit Reporting.</li>
+  </ul>
+  <p>When you choose Sarathy & Vasu LLP as your CA partner in Accounts, Audit & Assurance, you're choosing a firm that goes above and beyond to ensure your financial success and peace of mind. We are dedicated to helping you navigate the complexities of modern business finance, and we look forward to being your trusted ally on this journey.</p>
+</div>
+<div class="Accounts">
+  <h2><i>Accuracy Redefined <strong>with Us</strong> Quality meets Trust.</i></h2>
+  <p><i>Let's work together to build a prosperous financial future for your business. Contact us today to learn more about how we can assist you. Your success is our business!</i></p>
+</div>
+</div>
+    </div>
 
-<p style="margin-top:0pt; margin-left:36pt; margin-bottom:6pt; text-indent:-18pt; text-align:justify; line-height:110%; font-size:14pt;"><span style="font-family:sans-serif;"></span><span style="width:8.57pt; font:7pt 'sans-serif'; display:inline-block;"></span><strong><span style="font-family:sans-serif;">✔️ Expertise &amp; Experience:&nbsp;</span></strong><span style="font-family: sans-serif;">With decades of collective experience, our team of Chartered Accountants possesses in-depth knowledge of accounting principles, auditing standards, and regulatory requirements. We bring this expertise to every engagement, ensuring meticulous attention to detail and compliance.</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-left:36pt; margin-bottom:6pt; text-indent:-18pt; text-align:justify; line-height:110%; font-size:14pt;"><span style="font-family:sans-serif;"></span><span style="width:8.57pt; font:7pt 'sans-serif'; display:inline-block;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><strong><span style="font-family:sans-serif;">✔️ Customized Solutions:&nbsp;</span></strong><span style="font-family:sans-serif;">We recognize that no two businesses are alike. Our approach is tailored to your unique circumstances, industry-specific challenges, and growth objectives. We craft customized solutions that align with your strategic goals.</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-left:36pt; margin-bottom:6pt; text-indent:-18pt; text-align:justify; line-height:110%; font-size:14pt;"><span style="font-family:sans-serif;"></span><span style="width:8.57pt; font:7pt 'sans-serif'; display:inline-block;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><strong><span style="font-family: sans-serif;">✔️ Audit &amp; Assurance Services:</span></strong><span style="line-height:110%; font-size:10.5pt;">&nbsp;</span><span style="font-family: sans-serif;">Our core competence lies in providing comprehensive Audit &amp; Assurance services, including financial statement audits, internal audits, and compliance reviews. We meticulously examine your financial data to provide you with the assurance you need to make informed decisions.</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-left:36pt; margin-bottom:6pt; text-indent:-18pt; text-align:justify; line-height:110%; font-size:14pt;"><span style="font-family:sans-serif;"></span><span style="width:8.57pt; font:7pt 'sans-serif'; display:inline-block;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><strong><span style="font-family:sans-serif;">✔️ Risk Mitigation:</span></strong><span style="line-height:110%; font-size:10.5pt;">&nbsp;</span><span style="font-family: sans-serif;">We help identify and mitigate financial risks, ensuring that your business operates with maximum stability. Our risk assessment and management strategies empower you to navigate uncertain economic landscapes confidently.</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-left:36pt; margin-bottom:6pt; text-indent:-18pt; text-align:justify; line-height:110%; font-size:14pt;"><span style="font-family:sans-serif; font-size:10.5pt;"></span><span style="width:9.75pt; font:7pt 'sans-serif'; display:inline-block;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><strong><span style="font-family:sans-serif;">✔️ Regulatory Compliance:</span></strong><span style="line-height:110%; font-size:10.5pt;">&nbsp;</span><span style="font-family: sans-serif;">Staying compliant with ever-evolving regulations is a constant challenge. Our team stays abreast of changes and ensures that your financial processes and reporting meet all legal requirements, minimizing the risk of penalties and legal issues.</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-left:36pt; margin-bottom:6pt; text-indent:-18pt; text-align:justify; line-height:110%; font-size:14pt;"><span style="font-family:sans-serif;"></span><strong><span style="font-family: sans-serif;"> ✔️ Financial Advisory:&nbsp;</span></strong><span style="font-family: sans-serif;">Beyond traditional accounting and audit services, we offer valuable financial advisory services. Our insights and recommendations help you optimize your financial strategies, cut costs, and maximize profits.</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-left:36pt; margin-bottom:6pt; text-indent:-18pt; text-align:justify; line-height:110%; font-size:14pt;"><span style="font-family:sans-serif;"></span><span style="width:8.57pt; font:7pt 'sans-serif'; display:inline-block;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><strong><span style="font-family: sans-serif;">✔️ Technology Integration</span></strong><span style="line-height:110%; font-size:10.5pt;">:&nbsp;</span><span style="font-family: sans-serif;">We embrace cutting-edge accounting technology to streamline processes, enhance accuracy, and deliver real-time financial data. This enables you to make swift, data-driven decisions.</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-left:36pt; margin-bottom:6pt; text-indent:-18pt; text-align:justify; line-height:110%; font-size:14pt;"><span style="font-family:sans-serif;"></span><span style="width:8.57pt; font:7pt 'sans-serif'; display:inline-block;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><strong><span style="font-family: sans-serif;">✔️ Timely Reporting:</span></strong><span style="line-height:110%; font-size:10.5pt;">&nbsp;</span><span style="font-family: sans-serif;">We understand the importance of timely financial reporting. Our commitment to deadlines ensures that you have access to critical financial information when you need it most.</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-left:36pt; margin-bottom:6pt; text-indent:-18pt; text-align:justify; line-height:110%; font-size:14pt;"><span style="font-family:sans-serif;"></span><span style="width:8.57pt; font:7pt 'sans-serif'; display:inline-block;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><strong><span style="font-family: sans-serif;">✔️ Client-Centric Approach</span></strong><span style="line-height:110%; font-size:10.5pt;">:&nbsp;</span><span style="font-family: sans-serif;">Your satisfaction is our top priority. We foster long-term partnerships by maintaining open lines of communication, listening to your concerns, and delivering results that exceed your expectations.</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-<p style="margin-top:0pt; margin-left:36pt; margin-bottom:0pt; text-indent:-18pt; text-align:justify; line-height:110%; font-size:14pt;"><span style="font-family:sans-serif;"></span><span style="width:8.57pt; font:7pt 'sans-serif'; display:inline-block;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><strong><span style="font-family: sans-serif;">✔️Ethical &amp; Transparent Practices:</span></strong><span style="line-height:110%; font-size:10.5pt;">&nbsp;</span><span style="font-family: sans-serif;">Our firm upholds the highest ethical standards and transparency in all our dealings. You can trust us with your financial matters, knowing that integrity is at the core of everything we do.</span></p>
-<p style="margin-top:0pt; margin-left:36pt; margin-bottom:0pt;">&nbsp;</p>
-<p style="margin-top:0pt; margin-left:36pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-</div>
-<div class="stock">
-<p style="margin-top:0pt; margin-bottom:6pt; line-height:110%; font-size:20pt;"><strong><span style="font-family:sans-serif; color:#7030a0;">Accounts (Outsourcing)</span></strong><strong><span style="font-family: sans-serif; color:#7030a0;">&nbsp;&nbsp;</span></strong></p>
-<p style="margin-top:0pt; margin-bottom:6pt; line-height:110%; font-size:14pt;"><span style="font-family:sans-serif;">We undertake Completely Outsourcing of Accounts service For MSMEs and Other small Businesses.</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; line-height:110%; font-size:14pt;"><span style="font-family:sans-serif;">The complete range of Accounting Services for Small and Medium Level Enterprises includes.</span></p>
-<ul type="disc" style="margin:0pt; padding-left:0pt;">
-    <li style="margin-left:28.52pt; line-height:110%; padding-left:7.48pt; font-family:sans-serif; font-size:14pt;"><span style="font-family:sans-serif;">Bookkeeping Services</span></li>
-    <li style="margin-left:28.52pt; line-height:110%; padding-left:7.48pt; font-family:sans-serif; font-size:14pt;"><span style="font-family:sans-serif;">Preparation of Budget, Analysis &amp; Reporting</span></li>
-    <li style="margin-left:28.52pt; line-height:110%; padding-left:7.48pt; font-family:sans-serif; font-size:14pt;"><span style="font-family:sans-serif;">Year-End Accounting Processes</span></li>
-    <li style="margin-left:28.52pt; line-height:110%; padding-left:7.48pt; font-family:sans-serif; font: size 14pt;"><span style="font-family:sans-serif;">Ind AS &amp; IFRS Advisory Services</span></li>
-    <li style="margin-left:28.52pt; line-height:110%; padding-left:7.48pt; font-family:sans-serif; font-size:14pt;"><span style="font-family:sans-serif;">Annual Preparation of Accounts and Taxes</span></li>
-    <li style="margin-left:28.52pt; margin-bottom:6pt; line-height:110%; padding-left:7.48pt; font-family:sans-serif; font-size:15pt;"><span style="font-family:sans-serif;">Audit Reporting.</span></li>
-</ul>
-<p style="margin-top:0pt; margin-bottom:6pt; line-height:110%; font-size:14pt;"><span style="font-family:sans-serif;">&nbsp;</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify; line-height:110%; font-size:14pt;"><span style="font-family:sans-serif;">When you choose Sarathy &amp; Vasu LLP as your CA partner in Accounts, Audit &amp; Assurance, you&apos;re choosing a firm that goes above and beyond to ensure your financial success and peace of mind. We are dedicated to helping you navigate the complexities of modern business finance, and we look forward to being your trusted ally on this journey.</span></p><br>
-<p style="margin-top:0pt; margin-bottom:6pt; line-height:110%; font-size:28pt;">Accuracy Redefined&nbsp;</span><strong><span style="color:#ff0000;">with Us</span></strong><span style="line-height:110%; font-size:14pt; color:#ff0000;">&nbsp;Quality meets Trust.</span></p>
-<p style="margin-top:0pt; margin-bottom:6pt;">&nbsp;</p>
-<p style="margin-top:0pt; margin-bottom:6pt; text-align:justify;">&nbsp;</p>
-
-<p style="margin-top:0pt; margin-bottom:40pt; text-align:justify; line-height:110%; font-size:14pt;"><em><span style="font-family: sans-serif;">Let&apos;s work together to build a prosperous financial future for your business. Contact us today to learn more about how we can assist you. Your success is our business!</span></em></p>
-</div>
-</div>
 <footer id="footer">
 <div class="container">
       <div class="copyright">
-        <strong><span>© 2024 Sarathy and Vasu LLP</span></strong>
+        <span>© 2024 Sarathy and Vasu LLP</span>
       </div>
       
     </div>
