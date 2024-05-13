@@ -203,6 +203,7 @@
 
   });
 
+
   /**
    * Initiate portfolio lightbox 
    */
@@ -225,8 +226,7 @@
       type: 'bullets',
       clickable: true
     }
-  });
-
+  });[]
   /**
    * Animation on scroll
    */
@@ -240,3 +240,11 @@
   });
 
 })()
+function closePopup() {
+  document.getElementById('overlay').style.display = 'none';
+  document.body.style.visibility = 'visible'; 
+  
+}
+window.onload = function() {
+  document.getElementById('overlay').style.display = 'flex';
+};
